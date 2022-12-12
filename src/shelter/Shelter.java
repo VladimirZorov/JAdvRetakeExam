@@ -44,4 +44,22 @@ public class Shelter {
         return false;
     }
 
+    public Animal getOldestAnimal() {
+
+        return null;
+    }
+
+
+    public Animal getAnimal(String bela, String sia) {
+        return null;
+    }
+
+
+    public int getCount() {
+        return animals.size();
+    }
+
+    public List<Animal> getStatistics() {
+        return animals;
+    }
 }
