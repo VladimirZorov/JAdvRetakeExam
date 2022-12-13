@@ -13,6 +13,9 @@ public class Shelter {
         this.animals = new ArrayList<>();
     }
 
+    public Shelter() {
+    }
+
     public int getCapacity() {
         return this.capacity;
     }

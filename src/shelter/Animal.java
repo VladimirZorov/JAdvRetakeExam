@@ -11,6 +11,9 @@ public class Animal {
         this.caretaker = caretaker;
     }
 
+    public Animal() {
+    }
+
     public String getName() {
         return name;
     }
