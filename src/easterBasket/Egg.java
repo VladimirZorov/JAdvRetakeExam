@@ -38,8 +38,7 @@ public class Egg {
 
     @Override
     public String toString() {
-        return "{"+ color + "egg" +
-                ", with" + srength +
-                " strength and " + shape + "shape" + '}';
+        return String.format
+                ("%s egg, with %d strength and %s shape.", color, srength,shape);
     }
 }
